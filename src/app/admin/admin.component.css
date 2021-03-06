@@ -1,0 +1,84 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.addBlog{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+}
+
+textarea{
+    width: 50%;
+    resize: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+input{
+    width: 50%;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+table{
+    width: 50%;
+}
+
+tr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#add{
+    margin-bottom: 20px;
+    background-color: rgb(68, 205, 50);
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+th, td{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#edit{
+    background-color: orange;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+#delete{
+    background-color: red;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.alertErr{
+    width: 25%;
+    height: 90px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: absolute;
+    top: 40%;
+    left: 37.5%;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 10px;
+}

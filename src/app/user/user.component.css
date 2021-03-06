@@ -1,0 +1,39 @@
+.all {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 30%;
+  display: flex;
+  justify-content: start;
+  flex-flow: column;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 600px;
+  height: 320px;
+  margin: 20px;
+  background-image: url(http://cuevas.com.au/blog/wp-content/uploads/2019/08/blog-img.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.allText {
+  margin: 20px;
+  display: flex;
+  justify-content: start;
+  flex-flow: column;
+}
+
+#data {
+  margin-bottom: 10px;
+  color: rgb(92, 155, 194);
+}
+
+#text {
+  margin-top: 10px;
+}

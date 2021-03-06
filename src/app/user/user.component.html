@@ -1,0 +1,10 @@
+<div class="all">
+  <div class="container" *ngFor="let blog of blogsArr">
+    <div class="img"></div>
+    <div class="allText">
+      <span id="data"> {{ blog.date }} {{ blog.author }} </span>
+      <span><b> {{ blog.title }} </b></span>
+      <span id="text"> {{ blog.text }} </span>
+    </div>
+  </div>
+</div>
